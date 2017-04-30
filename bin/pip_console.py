@@ -5,7 +5,7 @@ import os,os.path,sys
 def modcmd(arg):
   os.system(sys.executable+" "+sys.prefix+"/bin/"+arg)
 
-if not(os.path.exists(sys.prefix+"/bin/pip")):
+if not(os.path.exists(sys.prefix+"/bin/pip.py")):
   print("You need to install pip first.")
 print("Input pip commands, ie: pip install {module}")
 while(True):
