@@ -1,0 +1,6 @@
+[DEVELOPING]
+
+This repo includes the pip and other extra builtins libraries
+
+The directories builtins and piplib console should be extract to the intenal directory:
+lib/python2.7/site-packages
